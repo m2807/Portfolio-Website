@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/70a5b4f61a.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <img class="image" src="image.png" alt="image">
+        <div class="container">
+            <nav class="menu">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#middle">About</a></li>
+                    <li><a href="#skill">Skills</a></li>
+                    <li><a href="#works">Project</a></li>
+                    <li><a href="#contacts">Contact</a></li>
+                    <i class="fa-sharp fa-solid fa-xmark"id=" b5" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars "id="b6" onclick="openmenu()"></i>
+            </nav>
+        </div>
+        <div class="content">
+            <h1>HI! I am <span>Monika</span> Pandey</h1>
+            <br>
+
+        </div>
+        <span class="typing"> <h3>Front-End Developer and Competetive Coder</h3></span>
+         <br>
+        <br>
+        <br>
+        <br>
+    </div>
+    <!-- --------------------------------------About me---------------------------------------------------------- ------>
+    <div id="middle">
+        <div id="about">
+            <img class="photo" src="image1.jpg" alt="" srcset="">
+            <h1 class="aboutme"> About Me</h1>
+
+        </div>
+        <p class="sub">I am a sophomore student pursuing B.tech in Information technology from Banasthali Vidyapith.
+            <br>
+            Being a technology enthusiast , love exploring new technologies and leveraging them to solve real<br> world
+            problems. I have a strong desire to gain technical and industrial knowledge.
+
+            I am open to <br>learning and contributing to the community by innovating and working hard . I am proficient
+            in
+            C/C++ <br>programming languages and have knowledge of data structures and algorithms along with having
+            <br>hands-on experience on web development technologies like HTML,CSS , BOOTSTRAP and JavaScript.
+        </p>
+
+        <div class="title">
+            <p class="tab-links activelink" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links " onclick="opentab('Projects')">Projects</p>
+            <p class="tab-links" onclick="opentab('Education')">Education</p>
+        </div>
+        <div class="subtitle activetab1" id="skills">
+            <ul>
+                <li><span>Web development</span><br>App development</li>
+                <li><span>Android Development</span><br>Building Android/OS Apps</li>
+                <li><span>Coder</span><br> Competetive Coding</li>
+            </ul>
+        </div>
+
+        <div class="subtitle activetab2" id='Projects'>
+            <ul>
+                <li><span>iDragon Game</span><br>An Action Game </li>
+                <li><span>Magic Notes</span><br>An App to write important Notes</li>
+                <li><span>Animation Car</span><br>An Animation Car</li>
+            </ul>
+        </div>
+        <div class="subtitle activetab3" id="Education">
+            <ul>
+                <li><span>2021-2025</span><br>Banasthali Vidyapith-B.Tech(CS)</li>
+                <li><span>since 2020</span><br>New Public Inter College</li>
+            </ul>
+        </div>
+    </div>
+    <!----------------------------------My skills------------------------------------------------------->
+    <div class="skills" id="skill">
+        <h1>My Skills</p>
+            <div class="skills-list">
+                <div>
+                    <i class="fa-brands fa-java"></i>
+                    <h1>JAVA</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis ab exercitationem voluptates
+                        deleniti dolores vitae..</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-c"></i>
+                    <h1>C</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis ab exercitationem voluptates
+                        deleniti dolores vitae..</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-barcode"></i>
+                    <h1>C++</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis ab exercitationem voluptates
+                        deleniti dolores vitae..</p>
+                </div>
+                <div>
+                    <i class="fa-brands fa-html5"></i>
+                    <h1>HTML</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis ab exercitationem voluptates
+                        deleniti dolores vitae..</p>
+                </div>
+                <div>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <h1>CSS</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis ab exercitationem voluptates
+                        deleniti dolores vitae..</p>
+                </div>
+
+                <div>
+                    <i class="fa-brands fa-square-js"></i>
+                    <h1>JavaScript</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis ab exercitationem voluptates
+                        deleniti dolores vitae..</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h1>SQL</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis ab exercitationem voluptates
+                        deleniti dolores vitae..</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <h1>Data Structures</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis ab exercitationem voluptates
+                        deleniti dolores vitae..</p>
+                </div>
+
+            </div>
+    </div>
+    <!------------------------------------------My works------------------------------------------------------>
+    <div id="works">
+        <div class="container">
+            <h1>My Works</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="idragon.jpg" alt="Idragon Game" srcset="">
+                    <div class="layer">
+                        <h2>Idragon Game</h2>
+                        <p>A gaming website with a dragon and a obstacle where dragon have to crosses the obstacle to
+                            increase points</p>
+                    </div>
+                </div>
+                <div class="work2">
+                    <img src="magic.png" alt="Magic Notes" srcset="">
+                    <div class="layer2">
+                        <h2>Magic Notes</h2>
+                        <p>A website to keep notes of important work and can also search the work by searching in the
+                            search tab</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="car animation.jpg" alt="Car Animation" srcset="">
+                    <div class="layer">
+                        <h2>An Animation Car</h2>
+                        <p>A car game which produces sound as well as fullof entertainment</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="btn">See More</button>
+    </div>
+    <!--------------------------------------------Contacts--------------------------------------------->
+    <div id="contacts">
+        <div class="container">
+            <div class="contact-left">
+                <h1>Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>contact@example.com</p>
+                <p><i class="fa-solid fa-phone-volume"></i></i>012345678</p>
+            </div>
+
+        </div>
+        <div class="social-media">
+            <a href="https://linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://instagram.com"><i class="fa-brands fa-square-instagram"></i></a>
+            <a href="https://twitter.com"><i class="fa-brands fa-square-twitter"></i></a>
+        </div>
+        <button class="btn btn2"><a href="resume.png" download>Download Resume</a></button>
+        <div class="contact-right">
+            <form>
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Message"></textarea>
+                <button type="submit" class="btn btn3">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+
+        var tabcontents = document.getElementsByClassName('subtitle');
+
+        function opentab(tabname) {
+
+            for (j of tabcontents) {
+                j.classList.remove("activetab1");
+            }
+            event.currentTarget.classList.add("activelink");
+            document.getElementById(tabname).classList.add("activetab1");
+            document.getElementById(tabname).classList.add("activetab3");
+
+        }
+
+    </script>
+    <script>
+        var sidemenu = document.getElementById('sidemenu');
+        function openmenu() {
+            sidemenu.style.left = "300px";
+        }
+        function closemenu() {
+            sidemenu.style.left = "530px";
+        }
+    </script>
+   
+</body>
+
+</html>

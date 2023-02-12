@@ -1,0 +1,486 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;1,300&family=Noto+Sans:wght@200&family=Sacramento&display=swap');
+
+body {
+    background-color: black;
+}
+html{
+    scroll-behavior: smooth;
+}
+.image {
+    width: 200px;
+
+}
+
+.container {
+    top: -227px;
+    position: relative;
+    left: 900px;
+    ;
+
+}
+
+nav ul li {
+    display: inline-block;
+    text-decoration: none;
+    list-style: none;
+    margin: 15px;
+ 
+      font-size: 20px;
+}
+
+nav ul li a {
+    position: relative;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    left: -150px;
+}
+
+nav ul li a::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background: red;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+}
+
+nav ul li a:hover::after {
+    width: 100%;
+}
+
+.content {
+    font-size: 25px;
+    color: aliceblue;
+    font-family: 'Merriweather', serif;
+    letter-spacing: 0.4cm;
+}
+
+.content h1 span {
+    color: rgb(223, 40, 40)
+}
+
+.typing{
+    font-size: 20px;
+    color: aliceblue;
+    font-family: 'Merriweather', serif;
+    letter-spacing: 0.2cm;
+    position: relative;
+    left: 350px;
+    top: -16px;
+}
+
+.typing:hover {
+    color: rgb(245, 61, 36);
+}
+
+#about {
+    padding: 50px;
+}
+
+.photo {
+    position: relative;
+    left: 960px;
+    width: 250px;
+    height: 450px;
+    top: 2px;
+    border-radius: 17px;
+}
+
+.aboutme {
+    color: rgb(128, 131, 133);
+    position: relative;
+    top: -493px;
+    font-family: 'Merriweather';
+    font-size: 45px;
+
+}
+
+.sub {
+    color: white;
+    position: relative;
+    top: -569px;
+    font-family: 'Merriweather', serif;
+    font-size: 12px;
+    letter-spacing: 0.08cm;
+    line-height: 0.7cm;
+
+}
+
+.title {
+    color: white;
+    display: flex;
+    margin: 30px 0px 50px;
+}
+
+.tab-links {
+
+    color: white;
+    margin-right: 100px;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+    top: -594px;
+}
+
+.tab-links::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background: red;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+}
+
+.tab-links.activelink:hover::after {
+    background: rgb(221, 55, 55);
+    width: 60%;
+}
+
+.tab-links.activelink2:hover::after {
+    color: rgb(221, 55, 55);
+    width: 60%;
+}
+
+.tab-links.activelink3:hover::after {
+    color: rgb(221, 55, 55);
+    width: 60%;
+}
+
+.subtitle {
+    color: white;
+    position: relative;
+
+    top: -630px;
+    left: -35px;
+}
+
+.subtitle ul li {
+    list-style: none;
+    margin: 5px;
+    font-family: 'Merriweather';
+    line-height: 40px;
+}
+
+.subtitle ul li span {
+    color: rgb(236, 64, 64);
+    line-height: 40px;
+    font-size: 16px;
+    font-family: 'Merriweather';
+}
+
+.subtitle {
+    display: none;
+}
+
+.subtitle.activetab1 {
+    display: block;
+
+}
+
+.skills {
+    color: rgb(128, 131, 133);
+    position: relative;
+    top: -600px;
+    font-family: 'Merriweather';
+    font-size: 25px;
+    left: 50px;
+}
+
+#skill {
+    padding: 0;
+}
+
+.skills-list {
+    color: rgb(194, 196, 199);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.skills-list div {
+    background-color: #262626;
+    padding: 40px;
+    font-size: 14px;
+    font-weight: 300;
+    border-radius: 10px;
+    transition: background 0.5s, transform 0.5s;
+
+}
+
+.skills-list div i {
+    font-size: 50px;
+    margin: 40px;
+}
+
+.skills-list div:hover {
+    background: #ff004f;
+    transform: translateY(-10px);
+}
+
+.container {
+    color: rgb(128, 131, 133);
+    font-family: 'Merriweather';
+    font-size: 25px;
+       
+    
+}
+.container h1{
+    color: rgb(128, 131, 133);
+    font-family: 'Merriweather';
+    font-size: 50px;
+    position: relative;
+    left: -832px;
+    letter-spacing: 0.3cm;
+    top: -47px;
+}
+
+
+
+.layer{
+    color: aliceblue;
+    position: relative;
+    left: -854px;
+}
+
+.work-list {
+    color: rgb(194, 196, 199);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+    font-size: 20px;
+    left: -800px;
+}
+.work h1{
+    color: red;
+}
+
+.work img {
+    width: 100%;
+    border-radius: 10px;
+    position: relative;
+    left: -854px;
+    display: block;
+    transition: transform 1s;
+}
+.work2 img{
+    height: 250px;
+    width: 450px;
+    position: relative;
+    left: -854px;
+    transition: transform 1s;
+}
+.layer{
+    width: 100%;
+    height: 0;
+    background: linear-gradient(rgba(0,0,0,0.6),#ff004f);
+    border-radius: 10px;
+    position: relative;
+    top: -245px;
+    bottom: 0;
+    overflow: hidden;
+    height:0;
+    font-size: 14px;
+    transition: height 1s;
+}
+.layer2{
+width: 100%;
+position: relative;
+top: -249px;
+height: 0;
+background: linear-gradient(rgba(0,0,0,0.6),#ff004f);
+border-radius: 10px;
+
+top: -260px;
+left: -833px;;
+bottom: 0;
+overflow: hidden;
+font-size: 14px;
+transition: height 1s;
+}
+.work img:hover {
+    transform:scale(1.05) ;
+}
+.work2 img:hover {
+    transform:scale(1.05) ;
+}
+.work:hover .layer{
+    height: 247px;
+}
+.work2:hover .layer2{
+    height: 247px;
+}
+button{
+    position: relative;
+    top: -100px;
+    left: 650px;
+    height: 50px;
+    width: 150px;
+    border-radius: 6px;
+    border:1px solid black;
+    color: #fff;
+    background-color: #262626;
+    transition: background 0.5s;
+}
+button:hover{
+    background: #ff004f;
+}
+.contact-left h1{
+    color:rgb(128, 131, 133);
+    top: 200px;
+    left: -880px;
+    position: relative;
+}
+.contact-left p{
+    position: relative;
+    top: 214px;
+    left: -878px;
+}
+
+.contact-left {
+      flex-basis: 35%;
+} 
+.contact-right{
+       flex-basis: 60%;
+       left: 300px;
+       position: relative;
+       top: -7px;
+}
+.contact-left p  i{
+    color: #ff004f;
+    margin-right: 15px;
+    font-size:25px;
+}
+.social-media
+{
+  margin-top: 20px;
+}
+.social-media a{
+    text-transform: none;
+    font-size: 25px;
+    position: relative;
+    left: 50px;
+    margin-right: 15px;
+    color:#ababab;
+    display: inline-block;
+    transition: transform 0.5s;
+}
+.social-media a:hover{
+    color: #ff004f;
+    transform: translateY(-5px);
+
+}
+.btn2{
+    position: relative;
+    left: 40px;
+    top: 60px;
+    color: aliceblue;
+    display: inline-block;
+    background: #ff004f;
+
+}
+.contact-right form{
+    width: 100%;
+}
+form input,form textarea{
+    position: relative;
+    width: 50%;
+    top: -220px;
+    left: 140px;
+    border: 0;
+    outline: none;
+    background: #262626;
+    padding: 15px;
+    margin: 15px 0;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+}
+.btn3{
+    background: #ff004f;
+    top: -150px;
+    left: -8px;
+}
+
+#b5{
+    display: none;
+}
+#b6{
+    display: none;
+}
+/*--------------------------------Css for small screens-----------------------------------*/
+
+@media only screen and (max-width:600px){
+
+    .content2{
+        font-size: 15px;
+        position: relative;
+        left: -5px;
+        letter-spacing: 0.5cm;
+        line-height: 0.8cm;
+    }
+    nav.fa{
+        display: block;
+        font-size: 25px;
+        position: relative;
+        left: -50px;
+         
+    }
+    nav ul{
+        background: #ff004f;
+        position: fixed;
+        left: 530px;
+        top: 0;
+        right: -200px;
+        width: 200px;
+        height: 100vh;
+        padding-top: 50px;
+        z-index: 2;
+        transition: right 1s;
+    }
+    nav ul li a{
+        display: block;
+        margin: 25px;
+        left: 10px;
+        top: -60px;
+
+    }
+    nav ul i{
+        position: relative;
+        top: -489px;
+        left: -180px;
+        color: black;
+        font-size: 30px;
+    }
+    
+    nav  i{
+        position: relative;
+        top: 44px;
+        left: -481px;
+        color: aliceblue;
+        font-size: 30px;
+    }
+    .work2 img{
+        height: 173px;
+        width: 302px;
+    }
+    .photo {
+        position: relative;
+        left: 233px;
+        width: 227px;
+        height: 445px;
+        top: 135px;
+        border-radius: 17px;
+    }
+    .contact-right{
+            left: -130px;
+            position: relative;
+            top: 302px;
+            width: 250%;}
+}
